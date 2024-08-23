@@ -31,3 +31,9 @@ class Solution:
 # Two-pointer technique: For each number in the array, treat it as a fixed number and use the two-pointer technique 
 # to find two other numbers that together with the fixed number sum to zero.
 # Avoid Duplicates: As we are looking for unique triplets, we skip duplicates in both the fixed number and the two-pointer part.
+
+# Steps:
+# Sort the array.
+# Iterate through the array, treating each element as the first element of the triplet.
+# Use two pointers (left and right) to find the other two numbers that sum to zero.
+# Skip duplicate elements to avoid duplicate triplets.
