@@ -25,3 +25,9 @@ class Solution:
                 else:
                     right -= 1
         return result
+
+# Approach:
+# Sorting: First, we sort the array to simplify the process of finding triplets and avoiding duplicates.
+# Two-pointer technique: For each number in the array, treat it as a fixed number and use the two-pointer technique 
+# to find two other numbers that together with the fixed number sum to zero.
+# Avoid Duplicates: As we are looking for unique triplets, we skip duplicates in both the fixed number and the two-pointer part.
