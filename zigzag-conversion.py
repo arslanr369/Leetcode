@@ -16,7 +16,6 @@ class Solution:
             # Add the character to the current row
             rows[current_row] += char
             
-            # If we are at the top or bottom, reverse the direction
             if current_row == 0 or current_row == numRows - 1:
                 going_down = not going_down
             
