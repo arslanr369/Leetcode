@@ -11,7 +11,7 @@ class Solution:
             
             while left < right:
                 total = nums[i] + nums[left] + nums[right]
-                
+
                 if total == 0:
                     result.append([nums[i], nums[left], nums[right]])
                     while left < right and nums[left] == nums[left + 1]:
@@ -24,3 +24,4 @@ class Solution:
                     left += 1
                 else:
                     right -= 1
+        return result
