@@ -19,7 +19,6 @@ class Solution:
                 elif p[j-1] == '*':
                     # Consider zero occurrence of the character before '*'
                     dp[i][j] = dp[i][j-2]
-                    # Consider one or more occurrences of the character before '*'
                     if p[j-2] == s[i-1] or p[j-2] == '.':
                         dp[i][j] = dp[i][j] or dp[i-1][j]
         
