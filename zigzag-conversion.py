@@ -20,7 +20,6 @@ class Solution:
             if current_row == 0 or current_row == numRows - 1:
                 going_down = not going_down
             
-            # Move to the next row (down if going_down is True, up otherwise)
             current_row += 1 if going_down else -1
         
         return ''.join(rows)
