@@ -18,3 +18,16 @@ class Solution:
                 longest_palindrome = even_palindrome
         
         return longest_palindrome
+    
+# Approach:
+# Palindrome Characteristics:
+
+# A palindrome reads the same forward and backward.
+# The center of a palindrome can be either a single character (for odd-length palindromes) or a pair of identical characters (for even-length palindromes).
+# Expand Around Center:
+
+# For every character (and every pair of consecutive characters) in the string, we consider it as the center of a potential palindrome.
+# We expand outwards while the characters on both sides are the same, keeping track of the longest palindrome found during this process.
+# Efficiency:
+
+# By expanding from each center, we effectively check for palindromes in O(n^2) time, which is efficient given the constraints.
