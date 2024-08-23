@@ -23,5 +23,4 @@ class Solution:
             # Move to the next row (down if going_down is True, up otherwise)
             current_row += 1 if going_down else -1
         
-        # Join all rows to get the final string
         return ''.join(rows)
