@@ -11,5 +11,4 @@ class Solution:
             x //= 10
         
         # Step 3: Check if the original half matches the reversed half
-        # When the number has an odd number of digits, ignore the middle digit
         return x == reversed_half or x == reversed_half // 10
