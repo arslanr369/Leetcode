@@ -7,7 +7,6 @@ class Solution:
         while i < n and s[i] == ' ':
             i += 1
         
-        # Step 2: Check for optional sign character
         if i < n and (s[i] == '-' or s[i] == '+'):
             sign = -1 if s[i] == '-' else 1
             i += 1
