@@ -31,3 +31,9 @@ class Solution:
         
         # Return the next of the dummy node, which is the head of the resulting list
         return dummy.next
+
+# Approach:
+# Iterate Through Both Lists: We'll iterate through both linked lists simultaneously, adding the corresponding digits.
+# Handle Carry: If the sum of the digits is greater than or equal to 10, we calculate the carry for the next position.
+# Create a New Linked List: The result will be stored in a new linked list where each node represents a digit of the resulting sum in reverse order.
+# Handle Remaining Digits: After the shorter list ends, continue adding remaining digits from the longer list and any carry that might still exist.
