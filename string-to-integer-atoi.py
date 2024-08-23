@@ -11,7 +11,6 @@ class Solution:
             sign = -1 if s[i] == '-' else 1
             i += 1
         
-        # Step 3: Convert digits to integer
         while i < n and s[i].isdigit():
             digit = int(s[i])
             
