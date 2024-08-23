@@ -14,7 +14,6 @@ class Solution:
         while i < n and s[i].isdigit():
             digit = int(s[i])
             
-            # Step 4: Handle overflow by checking the next possible value
             if result > (INT_MAX - digit) // 10:
                 return INT_MAX if sign == 1 else INT_MIN
             
