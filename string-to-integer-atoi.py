@@ -4,7 +4,6 @@ class Solution:
         
         i, n, sign, result = 0, len(s), 1, 0
         
-        # Step 1: Skip leading whitespaces
         while i < n and s[i] == ' ':
             i += 1
         
