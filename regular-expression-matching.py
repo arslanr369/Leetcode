@@ -2,7 +2,6 @@ class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         m, n = len(s), len(p)
         
-        # Initialize the dp table
         dp = [[False] * (n + 1) for _ in range(m + 1)]
         dp[0][0] = True  
         
