@@ -10,5 +10,4 @@ class Solution:
             reversed_half = reversed_half * 10 + x % 10
             x //= 10
         
-        # Step 3: Check if the original half matches the reversed half
         return x == reversed_half or x == reversed_half // 10
