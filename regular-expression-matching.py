@@ -4,7 +4,7 @@ class Solution:
         
         # Initialize the dp table
         dp = [[False] * (n + 1) for _ in range(m + 1)]
-        dp[0][0] = True  # Empty string and empty pattern match
+        dp[0][0] = True  
         
         for j in range(2, n + 1):
             if p[j-1] == '*':
