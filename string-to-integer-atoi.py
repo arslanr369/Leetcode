@@ -1,6 +1,5 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        # Define 32-bit signed integer range limits
         INT_MAX, INT_MIN = 2**31 - 1, -2**31
         
         # Initialize index, sign, and result
