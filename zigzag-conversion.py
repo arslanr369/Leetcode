@@ -1,10 +1,8 @@
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        # Edge case: If numRows is 1, the pattern is just the original string
         if numRows == 1:
             return s
         
-        # Initialize a list of strings for each row
         rows = [''] * min(numRows, len(s))
         
         current_row = 0
