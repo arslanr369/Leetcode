@@ -7,7 +7,6 @@ class Solution:
         # Initialize a list of strings for each row
         rows = [''] * min(numRows, len(s))
         
-        # Variables to track the current row and direction (down or up)
         current_row = 0
         going_down = False
         
