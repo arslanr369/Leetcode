@@ -13,7 +13,6 @@ class Solution:
             if len(odd_palindrome) > len(longest_palindrome):
                 longest_palindrome = odd_palindrome
             
-            # Check for the longest even-length palindrome (centered between i and i+1)
             even_palindrome = expandAroundCenter(i, i + 1)
             if len(even_palindrome) > len(longest_palindrome):
                 longest_palindrome = even_palindrome
