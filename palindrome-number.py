@@ -4,7 +4,6 @@ class Solution:
         if x < 0 or (x % 10 == 0 and x != 0):
             return False
         
-        # Step 2: Reverse half of the digits
         reversed_half = 0
         while x > reversed_half:
             reversed_half = reversed_half * 10 + x % 10
