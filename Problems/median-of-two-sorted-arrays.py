@@ -49,4 +49,4 @@ class Solution:
 # The largest element on the left side of both arrays combined is less than or equal to the smallest element on the right side.
 # Median Calculation:
 # If the combined length of the arrays is odd, the median will be the maximum element from the left partition.
-#If the combined length is even, the median will be the average of the maximum element from the left partition and the minimum element from the right partition.
+# If the combined length is even, the median will be the average of the maximum element from the left partition and the minimum element from the right partition.
