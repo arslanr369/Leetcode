@@ -20,5 +20,4 @@ class Solution:
             result = result * 10 + digit
             i += 1
         
-        # Apply the sign and return the result
         return sign * result
