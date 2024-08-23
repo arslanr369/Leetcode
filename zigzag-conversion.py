@@ -11,9 +11,7 @@ class Solution:
         current_row = 0
         going_down = False
         
-        # Iterate through each character in the string
         for char in s:
-            # Add the character to the current row
             rows[current_row] += char
             
             if current_row == 0 or current_row == numRows - 1:
