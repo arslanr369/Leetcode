@@ -17,3 +17,18 @@ class Solution:
             current_row += 1 if going_down else -1
         
         return ''.join(rows)
+    
+# Approach:
+# Zigzag Pattern:
+
+# The zigzag pattern involves writing the characters in a top-down fashion (column-wise), then diagonally up to the next column, repeating this process.
+# Each row of the zigzag pattern collects certain characters from the input string.
+
+# Simulation:
+
+# We simulate this process by keeping track of the current row while iterating through the string.
+# We move in a "downward" direction initially, and once we reach the bottom row, we switch to moving "upward". This process is repeated until the end of the string.
+
+# Edge Case:
+
+# If numRows is 1, the zigzag pattern is just the original string itself, so we can return the string as-is.
