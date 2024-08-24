@@ -24,7 +24,7 @@ class Solution:
 
 # Explanation:
 
-Sorting: Sorting the array helps in efficiently moving the two pointers to find the closest sum.
+# Sorting: Sorting the array helps in efficiently moving the two pointers to find the closest sum.
 
 Two Pointers Technique: For each element in the array, use two pointers to explore possible sums with the remaining elements. Adjust the pointers based on whether the current sum is less than or greater than the target.
 
