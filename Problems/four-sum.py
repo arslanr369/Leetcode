@@ -14,7 +14,6 @@ class Solution:
                 # Skip duplicates for the second number
                 if j > i + 1 and nums[j] == nums[j - 1]:
                     continue
-                # Two pointers for the third and fourth elements
                 left, right = j + 1, n - 1
                 while left < right:
                     current_sum = nums[i] + nums[j] + nums[left] + nums[right]
