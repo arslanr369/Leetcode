@@ -15,7 +15,6 @@ class Solution:
                 # Calculate the current sum
                 current_sum = nums[i] + nums[left] + nums[right]
                 
-                # Update the closest_sum if the current sum is closer to the target
                 if abs(current_sum - target) < abs(closest_sum - target):
                     closest_sum = current_sum
                 
