@@ -19,7 +19,7 @@ class Solution:
                 combinations.append(current_combination)
                 return
             
-            # Get the letters corresponding to the current digit
+            # Get the letters corresponding 
             letters = phone_map[digits[index]]
             for letter in letters:
                 backtrack(index + 1, current_combination + letter)
