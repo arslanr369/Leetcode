@@ -12,7 +12,6 @@ class Solution:
             left, right = i + 1, len(nums) - 1
             
             while left < right:
-                # Calculate the current sum
                 current_sum = nums[i] + nums[left] + nums[right]
                 
                 if abs(current_sum - target) < abs(closest_sum - target):
