@@ -11,7 +11,6 @@ class Solution:
                 continue
             # Loop for the second element
             for j in range(i + 1, n - 2):
-                # Skip duplicates for the second number
                 if j > i + 1 and nums[j] == nums[j - 1]:
                     continue
                 left, right = j + 1, n - 1
