@@ -18,7 +18,6 @@ class Solution:
             if index == len(digits):
                 combinations.append(current_combination)
                 return
-            
             letters = phone_map[digits[index]]
             for letter in letters:
                 backtrack(index + 1, current_combination + letter)
