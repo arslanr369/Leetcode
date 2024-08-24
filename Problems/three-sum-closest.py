@@ -25,6 +25,6 @@ class Solution:
                 elif current_sum > target:
                     right -= 1
                 else:
-                    return current_sum  # If current_sum is exactly the target, return it
+                    return current_sum  
         
         return closest_sum
