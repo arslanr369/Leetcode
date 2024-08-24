@@ -1,6 +1,5 @@
 class Solution:
     def threeSumClosest(self, nums, target):
-        # Step 1: Sort the array
         nums.sort()
         
         closest_sum = float('inf')
