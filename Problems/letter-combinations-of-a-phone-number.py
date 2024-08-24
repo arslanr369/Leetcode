@@ -22,7 +22,6 @@ class Solution:
             # Get the letters corresponding to the current digit
             letters = phone_map[digits[index]]
             for letter in letters:
-                # Add the letter to the current 
                 backtrack(index + 1, current_combination + letter)
         
         backtrack(0, "")
