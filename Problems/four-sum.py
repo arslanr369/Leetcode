@@ -33,7 +33,7 @@ class Solution:
 
 # Two Pointers: Iterate through the array using two nested loops for the first two numbers in the quadruplet. For the remaining two numbers, use two pointers (one starting from the left and one from the right) to find pairs that complete the quadruplet.
 
-Skipping Duplicates: To avoid duplicate quadruplets, skip over any repeated values during the iteration.
+# Skipping Duplicates: To avoid duplicate quadruplets, skip over any repeated values during the iteration.
 
 Time Complexity: The solution uses a four-level nested loop, but the innermost two loops are handled by the two-pointer approach. The overall time complexity is 
 𝑂
