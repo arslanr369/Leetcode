@@ -4,7 +4,6 @@ class Solution:
         n = len(nums)
         result = []
 
-        # Loop through the array for the first element
         for i in range(n - 3):
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
