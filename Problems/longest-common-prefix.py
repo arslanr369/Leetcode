@@ -13,7 +13,7 @@ class Solution:
         
         return prefix
     
-    Algorithm:
+# Algorithm:
 Start with the first string as the initial prefix.
 Iterate through the rest of the strings in the array, updating the prefix by comparing it with each string.
 For each string, reduce the prefix character by character until it matches the beginning of the current string.
