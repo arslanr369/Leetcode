@@ -9,7 +9,6 @@ class Solution:
             "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz"
         }
         
-        # List to store the final combinations
         combinations = []
         
         def backtrack(index, current_combination):
