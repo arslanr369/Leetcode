@@ -25,7 +25,6 @@ class Solution:
                 # Add the letter to the current combination and move to the next digit
                 backtrack(index + 1, current_combination + letter)
         
-        # Start backtracking from the first digit
         backtrack(0, "")
         
         return combinations
