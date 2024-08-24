@@ -12,7 +12,6 @@ class Solution:
         # List to store the final combinations
         combinations = []
         
-        # Helper function for backtracking
         def backtrack(index, current_combination):
             if index == len(digits):
                 combinations.append(current_combination)
