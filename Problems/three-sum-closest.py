@@ -3,7 +3,6 @@ class Solution:
         # Step 1: Sort the array
         nums.sort()
         
-        # Initialize the closest sum with a large value
         closest_sum = float('inf')
         
         for i in range(len(nums) - 2):
