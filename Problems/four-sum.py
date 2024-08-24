@@ -6,7 +6,6 @@ class Solution:
 
         # Loop through the array for the first element
         for i in range(n - 3):
-            # Skip duplicates for the first number
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
             for j in range(i + 1, n - 2):
