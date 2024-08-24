@@ -28,4 +28,4 @@ class Solution:
 
 # Two Pointers Technique: For each element in the array, use two pointers to explore possible sums with the remaining elements. Adjust the pointers based on whether the current sum is less than or greater than the target.
 
-Update Closest Sum: Compare the absolute difference between the current sum and the target with the closest sum found so far and update if necessary.
+# Update Closest Sum: Compare the absolute difference between the current sum and the target with the closest sum found so far and update if necessary.
