@@ -14,7 +14,6 @@ class Solution:
         
         # Helper function for backtracking
         def backtrack(index, current_combination):
-            # If the current combination 
             if index == len(digits):
                 combinations.append(current_combination)
                 return
