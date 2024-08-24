@@ -14,7 +14,7 @@ class Solution:
         
         # Helper function for backtracking
         def backtrack(index, current_combination):
-            # If the current combination is the same length as the digits, add to results
+            # If the current combination is the same length as the digits
             if index == len(digits):
                 combinations.append(current_combination)
                 return
