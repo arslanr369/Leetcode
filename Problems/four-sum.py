@@ -9,7 +9,6 @@ class Solution:
             # Skip duplicates for the first number
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
-            # Loop for the second element
             for j in range(i + 1, n - 2):
                 if j > i + 1 and nums[j] == nums[j - 1]:
                     continue
