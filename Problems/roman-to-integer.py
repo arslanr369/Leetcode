@@ -27,5 +27,5 @@ class Solution:
 # Algorithm:
 # Traverse the string from left to right.
 # If the current symbol has a smaller value than the next symbol, subtract its value.
-Otherwise, add its value to the total.
+# Otherwise, add its value to the total.
 Continue this process until the end of the string.
