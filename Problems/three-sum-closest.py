@@ -8,7 +8,6 @@ class Solution:
         
         # Step 2: Iterate through the array
         for i in range(len(nums) - 2):
-            # Set two pointers
             left, right = i + 1, len(nums) - 1
             
             while left < right:
