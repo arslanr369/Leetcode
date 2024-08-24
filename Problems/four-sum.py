@@ -20,7 +20,6 @@ class Solution:
                     current_sum = nums[i] + nums[j] + nums[left] + nums[right]
                     if current_sum == target:
                         result.append([nums[i], nums[j], nums[left], nums[right]])
-                        # Skip duplicates for the third and fourth numbers
                         while left < right and nums[left] == nums[left + 1]:
                             left += 1
                         while left < right and nums[right] == nums[right - 1]:
