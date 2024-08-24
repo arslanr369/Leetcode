@@ -29,7 +29,7 @@ class Solution:
         return result
 
 # Approach:
-Sorting: Sort the array to facilitate the use of two pointers and help in skipping duplicates.
+# Sorting: Sort the array to facilitate the use of two pointers and help in skipping duplicates.
 
 Two Pointers: Iterate through the array using two nested loops for the first two numbers in the quadruplet. For the remaining two numbers, use two pointers (one starting from the left and one from the right) to find pairs that complete the quadruplet.
 
