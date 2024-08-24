@@ -22,3 +22,6 @@ class Solution:
         
         return combinations
 
+# Approach:
+Handle Edge Cases: If the input string is empty, return an empty list.
+Backtracking: Use a backtracking approach to generate all combinations by recursively selecting letters for each digit.
