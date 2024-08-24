@@ -29,5 +29,6 @@ class Solution:
 
 # Value-Symbol Pairs: We store the Roman numeral symbols and their corresponding integer values in descending order.
 
-# Iterate and Convert: For each value-symbol pair, check if the current integer (num) is greater than or equal to the value. If it is, subtract the value from the integer and append the symbol to the result string. Continue this until the integer is fully converted.
+# Iterate and Convert: For each value-symbol pair, check if the current integer (num) is greater than or equal to the value. If it is, subtract the value from the integer and append the symbol to the result string. 
+# Continue this until the integer is fully converted.
 # Return: The final Roman numeral string is returned.
