@@ -6,7 +6,6 @@ class Solution:
         # Initialize the closest sum with a large value
         closest_sum = float('inf')
         
-        # Step 2: Iterate through the array
         for i in range(len(nums) - 2):
             left, right = i + 1, len(nums) - 1
             
