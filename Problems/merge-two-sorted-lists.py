@@ -36,4 +36,4 @@ class Solution:
 
 # Attach Remaining Nodes: After the loop, if there are remaining nodes in either list1 or list2, append them directly to the merged list.
 
-Return the Merged List: Finally, return the merged list, which starts from the node next to the dummy node.
+# Return the Merged List: Finally, return the merged list, which starts from the node next to the dummy node.
