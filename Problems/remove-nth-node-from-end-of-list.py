@@ -23,4 +23,4 @@ class Solution:
 
 # Remove the nth Node: Adjust the next pointer of the second pointer to skip the nth node from the end.
 
-Edge Case: If n is equal to the length of the list, the head of the list should be removed.
+# Edge Case: If n is equal to the length of the list, the head of the list should be removed.
