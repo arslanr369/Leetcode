@@ -17,4 +17,10 @@ class Solution:
         
         return result
     
-# 
+# Approach:
+
+# Backtracking: We will use a recursive function to build the string of parentheses step by step. At each step, we decide whether to add an opening ( or closing ) parenthesis, ensuring that the string remains valid.
+Conditions:
+We can only add an opening ( parenthesis if we haven't used all n opening parentheses.
+We can only add a closing ) parenthesis if the number of closing parentheses is less than the number of opening parentheses (this ensures validity).
+Base Case: When the current string of parentheses has 2*n characters (meaning all n pairs are placed), we add it to the result list.
