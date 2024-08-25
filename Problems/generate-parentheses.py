@@ -17,7 +17,6 @@ class Solution:
             if close_count < open_count:
                 backtrack(current_string + ')', open_count, close_count + 1)
         
-        # Start the backtracking process
         backtrack("", 0, 0)
         
         return result
