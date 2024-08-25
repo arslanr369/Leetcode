@@ -12,7 +12,6 @@ class Solution:
         
         # Traverse through both lists
         while list1 and list2:
-            # Compare the current nodes of both lists
             if list1.val <= list2.val:
                 current.next = list1
                 list1 = list1.next
