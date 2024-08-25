@@ -14,7 +14,6 @@ class Solution:
             else:
                 stack.append(char)
         
-        # In the end, the stack should be empty if the string is valid
         return not stack
 
 
