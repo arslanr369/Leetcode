@@ -27,7 +27,6 @@ class Solution:
             # Add the smallest node to the merged list
             current.next = node
             current = current.next
-            # If the node has a next, push it into the heap
             if node.next:
                 heappush(min_heap, (node.next.val, i, node.next))
         
