@@ -27,7 +27,7 @@ class Solution:
         return dummy.next
 
 # Approach:
-Min-Heap:
+# Min-Heap:
 
 Use a Min-Heap to keep track of the smallest node among all the heads of the linked lists.
 Insert the head of each non-empty linked list into the heap.
