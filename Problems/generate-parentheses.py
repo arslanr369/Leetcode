@@ -13,7 +13,6 @@ class Solution:
             if open_count < n:
                 backtrack(current_string + '(', open_count + 1, close_count)
             
-            # Add a closing parenthesis if it's valid to do so
             if close_count < open_count:
                 backtrack(current_string + ')', open_count, close_count + 1)
         
