@@ -26,7 +26,7 @@ class Solution:
         return dummy.next
     
 # Approach:
-Create a Dummy Node: We initialize a dummy node that acts as the head of the merged list. A pointer current is used to build the merged list.
+# Create a Dummy Node: We initialize a dummy node that acts as the head of the merged list. A pointer current is used to build the merged list.
 
 Compare Nodes: Traverse both list1 and list2. At each step, compare the current nodes of both lists:
 
