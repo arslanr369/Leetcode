@@ -15,7 +15,7 @@ class Solution:
         return dummy.next
     
 # Approach:
-Two Pointers: We use two pointers, first and second. Initially, both pointers start at the head of the linked list.
+# Two Pointers: We use two pointers, first and second. Initially, both pointers start at the head of the linked list.
 
 Move First Pointer: Move the first pointer n steps ahead of the second pointer.
 
