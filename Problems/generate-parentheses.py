@@ -2,7 +2,6 @@ class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         result = []
         
-        # Helper function for backtracking
         def backtrack(current_string, open_count, close_count):
             if len(current_string) == 2 * n:
                 result.append(current_string)
