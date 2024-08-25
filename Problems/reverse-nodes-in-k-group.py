@@ -41,12 +41,14 @@ class Solution:
 # We will reverse the nodes in groups of k until we reach the end of the list.
 # If the remaining nodes are fewer than k, they will not be reversed.
 # Use a dummy node to handle the head of the list and make it easier to manipulate the linked list.
+
 # Key Steps:
 
 # Traverse the list and check if there are enough nodes left for a full group of k.
 # Reverse the k nodes.
 # Connect the reversed segment to the previous and next parts of the list.
 # Move to the next group.
+
 # Edge Cases:
 
 # If k is 1, return the list as it is because no reversing is needed.
