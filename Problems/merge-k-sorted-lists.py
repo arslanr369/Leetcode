@@ -29,7 +29,7 @@ class Solution:
 # Approach:
 # Min-Heap:
 
-Use a Min-Heap to keep track of the smallest node among all the heads of the linked lists.
+# Use a Min-Heap to keep track of the smallest node among all the heads of the linked lists.
 Insert the head of each non-empty linked list into the heap.
 Extract the smallest node from the heap, add it to the result linked list, and then push the next node from the same list into the heap.
 Repeat this process until all nodes from all lists have been added to the result list.
