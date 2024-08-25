@@ -21,7 +21,6 @@ class Solution:
                 list2 = list2.next
             current = current.next
         
-        # If any nodes remain in either list, append them
         if list1:
             current.next = list1
         elif list2:
