@@ -17,7 +17,7 @@ class Solution:
 # Approach:
 # Two Pointers: We use two pointers, first and second. Initially, both pointers start at the head of the linked list.
 
-Move First Pointer: Move the first pointer n steps ahead of the second pointer.
+# Move First Pointer: Move the first pointer n steps ahead of the second pointer.
 
 Move Both Pointers: After that, move both pointers one step at a time until the first pointer reaches the end of the list. At this point, the second pointer will be at the node just before the nth node from the end.
 
