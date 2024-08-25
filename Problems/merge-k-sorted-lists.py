@@ -17,7 +17,6 @@ class Solution:
             if l:  # Check if the list is not empty
                 heappush(min_heap, (l.val, i, l))
         
-        # Dummy node to start the merged list
         dummy = ListNode()
         current = dummy
         
