@@ -28,7 +28,7 @@ class Solution:
 # Approach:
 # Create a Dummy Node: We initialize a dummy node that acts as the head of the merged list. A pointer current is used to build the merged list.
 
-Compare Nodes: Traverse both list1 and list2. At each step, compare the current nodes of both lists:
+# Compare Nodes: Traverse both list1 and list2. At each step, compare the current nodes of both lists:
 
 Append the smaller node to the merged list.
 Move the pointer of the list whose node was appended.
