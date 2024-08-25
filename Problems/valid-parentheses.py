@@ -3,7 +3,6 @@ class Solution:
         # Stack to hold the opening brackets
         stack = []
         
-        # Dictionary to match closing brackets to their corresponding opening brackets
         bracket_map = {')': '(', '}': '{', ']': '['}
         
         # Iterate through each character in the string
