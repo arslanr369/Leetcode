@@ -27,5 +27,4 @@ class Solution:
         elif list2:
             current.next = list2
         
-        # Return the merged list, which starts from dummy.next
         return dummy.next
