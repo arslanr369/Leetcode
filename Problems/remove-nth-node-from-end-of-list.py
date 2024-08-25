@@ -13,3 +13,5 @@ class Solution:
             second = second.next
         second.next = second.next.next
         return dummy.next
+    
+#
