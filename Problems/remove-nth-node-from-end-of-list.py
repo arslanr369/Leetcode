@@ -19,7 +19,7 @@ class Solution:
 
 # Move First Pointer: Move the first pointer n steps ahead of the second pointer.
 
-Move Both Pointers: After that, move both pointers one step at a time until the first pointer reaches the end of the list. At this point, the second pointer will be at the node just before the nth node from the end.
+# Move Both Pointers: After that, move both pointers one step at a time until the first pointer reaches the end of the list. At this point, the second pointer will be at the node just before the nth node from the end.
 
 Remove the nth Node: Adjust the next pointer of the second pointer to skip the nth node from the end.
 
