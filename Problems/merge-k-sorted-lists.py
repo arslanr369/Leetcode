@@ -24,7 +24,6 @@ class Solution:
         # While there are nodes in the heap
         while min_heap:
             val, i, node = heappop(min_heap)
-            # Add the smallest node to the merged list
             current.next = node
             current = current.next
             if node.next:
