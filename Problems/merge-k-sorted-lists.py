@@ -14,7 +14,7 @@ class Solution:
         
         # Initialize the heap with the head nodes of all the non-empty lists
         for i, l in enumerate(lists):
-            if l:  # Check if the list is not empty
+            if l:  
                 heappush(min_heap, (l.val, i, l))
         
         dummy = ListNode()
