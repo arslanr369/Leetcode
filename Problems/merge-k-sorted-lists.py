@@ -21,7 +21,6 @@ class Solution:
         dummy = ListNode()
         current = dummy
         
-        # While there are nodes in the heap
         while min_heap:
             val, i, node = heappop(min_heap)
             current.next = node
