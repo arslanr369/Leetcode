@@ -4,7 +4,6 @@ class Solution:
         
         # Helper function for backtracking
         def backtrack(current_string, open_count, close_count):
-            # If the current string is a valid sequence with all pairs
             if len(current_string) == 2 * n:
                 result.append(current_string)
                 return
