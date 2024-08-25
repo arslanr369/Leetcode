@@ -30,7 +30,7 @@ class Solution:
 
 # Compare Nodes: Traverse both list1 and list2. At each step, compare the current nodes of both lists:
 
-Append the smaller node to the merged list.
+# Append the smaller node to the merged list.
 Move the pointer of the list whose node was appended.
 Attach Remaining Nodes: After the loop, if there are remaining nodes in either list1 or list2, append them directly to the merged list.
 
