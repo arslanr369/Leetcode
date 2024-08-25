@@ -9,7 +9,6 @@ class Solution:
                 result.append(current_string)
                 return
             
-            # Add an opening parenthesis if we have any left to add
             if open_count < n:
                 backtrack(current_string + '(', open_count + 1, close_count)
             
