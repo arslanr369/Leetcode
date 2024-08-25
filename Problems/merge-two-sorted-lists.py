@@ -6,7 +6,6 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        # Create a dummy node to serve as the starting point of the merged list
         dummy = ListNode()
         current = dummy
         
