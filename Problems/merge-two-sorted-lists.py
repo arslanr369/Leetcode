@@ -25,4 +25,13 @@ class Solution:
         
         return dummy.next
     
+# Approach:
+Create a Dummy Node: We initialize a dummy node that acts as the head of the merged list. A pointer current is used to build the merged list.
 
+Compare Nodes: Traverse both list1 and list2. At each step, compare the current nodes of both lists:
+
+Append the smaller node to the merged list.
+Move the pointer of the list whose node was appended.
+Attach Remaining Nodes: After the loop, if there are remaining nodes in either list1 or list2, append them directly to the merged list.
+
+Return the Merged List: Finally, return the merged list, which starts from the node next to the dummy node.
