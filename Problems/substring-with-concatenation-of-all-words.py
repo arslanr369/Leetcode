@@ -51,7 +51,7 @@ class Solution:
 # Using a Hashmap:
 
 # We can use a hashmap to store the frequency of each word in words.
-For each substring, we check if we can match the required frequency of each word using another hashmap.
+# For each substring, we check if we can match the required frequency of each word using another hashmap.
 Edge Case:
 
 If the total length of the concatenated string exceeds the length of s, return an empty list immediately.
