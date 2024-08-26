@@ -2,7 +2,6 @@ class Solution:
     def nextPermutation(self, nums: list[int]) -> None:
         n = len(nums)
         
-        # Step 1: Find the first decreasing element from the end
         i = n - 2
         while i >= 0 and nums[i] >= nums[i + 1]:
             i -= 1
