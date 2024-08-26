@@ -37,6 +37,7 @@ class Solution:
         return result
 
 # Approach:
+
 # Length Calculations:
 
 Each word in words has the same length word_len.
