@@ -44,8 +44,7 @@ class Solution:
 
 # Key Steps:
 
-# Traverse the list and check if there are enough nodes left for a full group of k.
-# Reverse the k nodes.
+# Traverse the list and check if there are enough nodes left for a full group of k. Reverse the k nodes.
 # Connect the reversed segment to the previous and next parts of the list.
 # Move to the next group.
 
