@@ -21,7 +21,7 @@ class Solution:
 # Traversal:
 # For each (, we push the index onto the stack.
 # For each ), we pop the stack and check if it’s empty. If it is, push the current index to reset the start of a new substring. Otherwise, calculate the length of the valid substring using the difference between the current index and the new top of the stack.
-Updating Maximum Length: We continuously update the maximum length of valid substrings during the traversal.
+# Updating Maximum Length: We continuously update the maximum length of valid substrings during the traversal.
 Time Complexity:
 The time complexity is O(n), where n is the length of the string, as we traverse the string once.
 Space Complexity:
