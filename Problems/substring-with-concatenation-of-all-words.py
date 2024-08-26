@@ -35,3 +35,20 @@ class Solution:
                     left = right
         
         return result
+
+# Approach:
+Length Calculations:
+
+Each word in words has the same length word_len.
+The length of the concatenated substring would be total_len = word_len * len(words).
+Sliding Window:
+
+We slide over the string s and check each possible substring of length total_len.
+For each substring, we split it into words of length word_len and check if all the words match the required count from the list words.
+Using a Hashmap:
+
+We can use a hashmap to store the frequency of each word in words.
+For each substring, we check if we can match the required frequency of each word using another hashmap.
+Edge Case:
+
+If the total length of the concatenated string exceeds the length of s, return an empty list immediately.
