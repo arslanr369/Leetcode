@@ -17,7 +17,7 @@ class Solution:
 
 # Explanation:
 
-Stack Initialization: We push -1 initially to handle cases where the valid substring starts at the beginning of the string.
+# Stack Initialization: We push -1 initially to handle cases where the valid substring starts at the beginning of the string.
 Traversal:
 For each (, we push the index onto the stack.
 For each ), we pop the stack and check if it’s empty. If it is, push the current index to reset the start of a new substring. Otherwise, calculate the length of the valid substring using the difference between the current index and the new top of the stack.
