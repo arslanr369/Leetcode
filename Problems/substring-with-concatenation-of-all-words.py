@@ -37,7 +37,7 @@ class Solution:
         return result
 
 # Approach:
-Length Calculations:
+# Length Calculations:
 
 Each word in words has the same length word_len.
 The length of the concatenated substring would be total_len = word_len * len(words).
