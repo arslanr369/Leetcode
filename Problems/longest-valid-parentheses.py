@@ -24,5 +24,7 @@ class Solution:
 # Updating Maximum Length: We continuously update the maximum length of valid substrings during the traversal.
 # Time Complexity:
 # The time complexity is O(n), where n is the length of the string, as we traverse the string once.
+
 # Space Complexity:
-The space complexity is O(n) due to the use of the stack, which could store up to n indices in the worst case.
+
+# The space complexity is O(n) due to the use of the stack, which could store up to n indices in the worst case.
