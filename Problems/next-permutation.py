@@ -22,7 +22,7 @@ class Solution:
 
 # Finding the first decreasing element: We start from the rightmost element and look for the first pair where nums[i] < nums[i + 1]. This step helps identify where the array can be modified to find the next permutation.
 
-Finding the element to swap: After identifying the first decreasing element, we find the smallest element larger than nums[i] to ensure the smallest lexicographical increment.
+# Finding the element to swap: After identifying the first decreasing element, we find the smallest element larger than nums[i] to ensure the smallest lexicographical increment.
 
 Swapping: We swap the identified elements to create a new permutation.
 
