@@ -46,7 +46,7 @@ class Solution:
 # Sliding Window:
 
 # We slide over the string s and check each possible substring of length total_len.
-For each substring, we split it into words of length word_len and check if all the words match the required count from the list words.
+# For each substring, we split it into words of length word_len and check if all the words match the required count from the list words.
 Using a Hashmap:
 
 We can use a hashmap to store the frequency of each word in words.
