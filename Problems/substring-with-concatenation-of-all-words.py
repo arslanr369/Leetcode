@@ -50,7 +50,7 @@ class Solution:
 
 # Using a Hashmap:
 
-We can use a hashmap to store the frequency of each word in words.
+# We can use a hashmap to store the frequency of each word in words.
 For each substring, we check if we can match the required frequency of each word using another hashmap.
 Edge Case:
 
