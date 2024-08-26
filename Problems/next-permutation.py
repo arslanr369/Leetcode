@@ -24,6 +24,6 @@ class Solution:
 
 # Finding the element to swap: After identifying the first decreasing element, we find the smallest element larger than nums[i] to ensure the smallest lexicographical increment.
 
-Swapping: We swap the identified elements to create a new permutation.
+# Swapping: We swap the identified elements to create a new permutation.
 
 Reversing the suffix: Reversing the portion of the array after the swapped element gives the smallest possible permutation with the modified prefix.
