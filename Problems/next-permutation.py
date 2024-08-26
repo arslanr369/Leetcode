@@ -7,7 +7,6 @@ class Solution:
         while i >= 0 and nums[i] >= nums[i + 1]:
             i -= 1
         
-        # Step 2: Find the element to swap with
         if i >= 0:
             j = n - 1
             while nums[j] <= nums[i]:
