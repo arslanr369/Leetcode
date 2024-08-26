@@ -35,3 +35,13 @@ class Solution:
         last = findLast(nums, target)
         return [first, last]
 
+# Approach:
+# Binary Search for the First Occurrence:
+
+# Perform a binary search that narrows down the search to find the first position where the target appears in the array.
+# When the middle element matches the target, continue searching in the left half of the array to ensure you find the first occurrence.
+# Binary Search for the Last Occurrence:
+
+# Similarly, perform a binary search that narrows down the search to find the last position where the target appears in the array.
+# When the middle element matches the target, continue searching in the right half of the array to ensure you find the last occurrence.
+# If the target is not found in the array, return [-1, -1].
