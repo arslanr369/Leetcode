@@ -43,7 +43,7 @@ class Solution:
 # Each word in words has the same length word_len.
 # The length of the concatenated substring would be total_len = word_len * len(words).
 
-Sliding Window:
+# Sliding Window:
 
 We slide over the string s and check each possible substring of length total_len.
 For each substring, we split it into words of length word_len and check if all the words match the required count from the list words.
