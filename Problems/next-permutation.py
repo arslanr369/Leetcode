@@ -26,4 +26,4 @@ class Solution:
 
 # Swapping: We swap the identified elements to create a new permutation.
 
-Reversing the suffix: Reversing the portion of the array after the swapped element gives the smallest possible permutation with the modified prefix.
+# Reversing the suffix: Reversing the portion of the array after the swapped element gives the smallest possible permutation with the modified prefix.
