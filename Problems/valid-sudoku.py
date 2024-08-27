@@ -13,7 +13,6 @@ class Solution:
                 
                 num = board[i][j]
                 
-                # Calculate the box index
                 box_index = (i // 3) * 3 + (j // 3)
                 
                 if num in rows[i] or num in cols[j] or num in boxes[box_index]:
