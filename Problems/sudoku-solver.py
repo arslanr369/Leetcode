@@ -1,7 +1,6 @@
 class Solution:
     def solveSudoku(self, board: list[list[str]]) -> None:
         def is_valid(board, row, col, num):
-            # Check if the number is not repeated in the current row, column, and sub-grid
             for i in range(9):
                 if board[row][i] == num or board[i][col] == num:
                     return False
