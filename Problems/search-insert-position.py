@@ -19,6 +19,7 @@ class Solution:
 # If nums[mid] is equal to the target, return mid.
 
 # If nums[mid] is less than the target, narrow the search to the right half of the array.
+
 # If nums[mid] is greater than the target, narrow the search to the left half of the array.
 # Continue this process until the left pointer surpasses the right pointer.
 # If the target is not found, the left pointer will point to the position where the target should be inserted.
