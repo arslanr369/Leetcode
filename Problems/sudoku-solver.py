@@ -27,7 +27,7 @@ class Solution:
 
 # Backtracking Algorithm:
 
-Find an empty cell.
+# Find an empty cell.
 Try placing each digit (1-9) in the cell.
 Check if the digit is valid (doesn't violate any Sudoku rules).
 If valid, recursively try to solve the remaining board.
