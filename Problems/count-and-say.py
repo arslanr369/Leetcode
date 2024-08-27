@@ -23,6 +23,7 @@ class Solution:
         return current
 
 # Approach:
+
 # We will iteratively build the sequence from countAndSay(1) up to countAndSay(n).
 
 Start with the base string "1".
