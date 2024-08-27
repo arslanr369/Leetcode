@@ -7,7 +7,6 @@ class Solution:
 
         for i in range(9):
             for j in range(9):
-                # If the cell is empty, skip it
                 if board[i][j] == '.':
                     continue
                 
