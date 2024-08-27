@@ -12,6 +12,7 @@ class Solution:
 # Binary Search:
 
 # Start with two pointers, left and right, representing the bounds of the search space.
+
 # Calculate the mid index and compare nums[mid] with the target.
 # If nums[mid] is equal to the target, return mid.
 # If nums[mid] is less than the target, narrow the search to the right half of the array.
