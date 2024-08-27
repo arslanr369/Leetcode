@@ -20,3 +20,15 @@ class Solution:
         
         backtrack(target, [], 0)
         return result
+
+# Approach:
+
+# Backtracking:
+
+# Use backtracking to explore all possible combinations of candidates that sum to the target.
+# Unlike the previous problem, here you can't reuse the same element. Thus, move to the next element after including the current one.
+# Sort the array to handle duplicates easily.
+
+# Handling Duplicates:
+
+After sorting the candidates, skip duplicate numbers when iterating to ensure that each combination is unique.
