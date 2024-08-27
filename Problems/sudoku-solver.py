@@ -30,7 +30,7 @@ class Solution:
 # Find an empty cell.
 # Try placing each digit (1-9) in the cell.
 
-Check if the digit is valid (doesn't violate any Sudoku rules).
+# Check if the digit is valid (doesn't violate any Sudoku rules).
 If valid, recursively try to solve the remaining board.
 If the board becomes unsolvable, remove the digit (backtrack) and try the next digit.
 If the board is completely filled with valid digits, the puzzle is solved.
