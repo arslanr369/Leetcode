@@ -29,6 +29,7 @@ class Solution:
 # For each filled cell, we'll check:
 
 # If the value already exists in the corresponding row set.
+
 If the value already exists in the corresponding column set.
 If the value already exists in the corresponding 3x3 sub-grid set.
 If any of the conditions fail, the board is invalid, and we return false.
