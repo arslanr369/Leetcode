@@ -20,7 +20,7 @@ class Solution:
                                 board[row][col] = num
                                 if solve(board):  # Recursively solve the rest of the board
                                     return True
-                                board[row][col] = '.'  # Backtrack if not solvable
+                                board[row][col] = '.'  
                         return False  
             return True  
 
