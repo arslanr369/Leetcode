@@ -22,6 +22,6 @@ class Solution:
                                     return True
                                 board[row][col] = '.'  # Backtrack if not solvable
                         return False  # If no number can be placed, return False
-            return True  # If the entire board is filled, return True
+            return True  
 
         solve(board)
