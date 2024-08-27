@@ -14,7 +14,6 @@ class Solution:
             for row in range(9):
                 for col in range(9):
                     if board[row][col] == '.':
-                        # Try placing digits 1-9 in the empty cell
                         for num in map(str, range(1, 10)):
                             if is_valid(board, row, col, num):
                                 board[row][col] = num
