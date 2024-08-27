@@ -18,7 +18,7 @@ class Solution:
                         for num in map(str, range(1, 10)):
                             if is_valid(board, row, col, num):
                                 board[row][col] = num
-                                if solve(board):  # Recursively solve the rest of the board
+                                if solve(board):  
                                     return True
                                 board[row][col] = '.'  
                         return False  
