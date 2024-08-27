@@ -13,7 +13,6 @@ class Solution:
                 combination.append(candidates[i])
                 # Recursively call backtrack with the updated remaining sum
                 backtrack(remaining - candidates[i], combination, i)
-                # Backtrack, remove the last added element
                 combination.pop()
         
         candidates.sort()  
