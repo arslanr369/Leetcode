@@ -24,7 +24,7 @@ class Solution:
 # Backtracking:
 
 # Start with an empty combination and a sum of 0.
-For each number in the candidates list, try to add it to the current combination.
+# For each number in the candidates list, try to add it to the current combination.
 If the sum exceeds the target, stop exploring that path (backtrack).
 If the sum equals the target, add the current combination to the result.
 Recur by trying to add the current number again (since the number can be used multiple times).
