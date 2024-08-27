@@ -5,7 +5,6 @@ class Solution:
             for i in range(9):
                 if board[row][i] == num or board[i][col] == num:
                     return False
-                # Check the 3x3 sub-box
                 if board[3 * (row // 3) + i // 3][3 * (col // 3) + i % 3] == num:
                     return False
             return True
