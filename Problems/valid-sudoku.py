@@ -22,4 +22,11 @@ class Solution:
         
         return True
 
-# 
+# Approach:
+We will use three sets of data structures to keep track of the values we encounter in rows, columns, and sub-grids.
+For each filled cell, we'll check:
+If the value already exists in the corresponding row set.
+If the value already exists in the corresponding column set.
+If the value already exists in the corresponding 3x3 sub-grid set.
+If any of the conditions fail, the board is invalid, and we return false.
+If we traverse the entire board without any issues, the board is valid, and we return true.
