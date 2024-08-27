@@ -16,7 +16,6 @@ class Solution:
                 # Calculate the box index
                 box_index = (i // 3) * 3 + (j // 3)
                 
-                # Check the row, column, and box
                 if num in rows[i] or num in cols[j] or num in boxes[box_index]:
                     return False
                 
