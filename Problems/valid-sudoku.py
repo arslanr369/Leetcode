@@ -25,6 +25,7 @@ class Solution:
 # Approach:
 
 We will use three sets of data structures to keep track of the values we encounter in rows, columns, and sub-grids.
+
 For each filled cell, we'll check:
 If the value already exists in the corresponding row set.
 If the value already exists in the corresponding column set.
