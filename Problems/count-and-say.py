@@ -22,4 +22,9 @@ class Solution:
         
         return current
 
-# 
+# Approach:
+# We will iteratively build the sequence from countAndSay(1) up to countAndSay(n).
+
+Start with the base string "1".
+For each step, generate the next string by reading off the previous string (using the run-length encoding approach).
+Continue this until we reach the nth string.
