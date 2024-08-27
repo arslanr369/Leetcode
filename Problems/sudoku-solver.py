@@ -21,7 +21,7 @@ class Solution:
                                 if solve(board):  # Recursively solve the rest of the board
                                     return True
                                 board[row][col] = '.'  # Backtrack if not solvable
-                        return False  # If no number can be placed, return False
+                        return False  
             return True  
 
         solve(board)
