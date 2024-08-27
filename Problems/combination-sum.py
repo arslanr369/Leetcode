@@ -16,7 +16,7 @@ class Solution:
                 # Backtrack, remove the last added element
                 combination.pop()
         
-        candidates.sort()  # Sort to improve efficiency
+        candidates.sort()  
         backtrack(target, [], 0)
         
         return result
