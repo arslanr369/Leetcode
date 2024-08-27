@@ -25,5 +25,4 @@ class Solution:
                 cols[j].add(num)
                 boxes[box_index].add(num)
         
-        # If all checks pass, the board is valid
         return True
