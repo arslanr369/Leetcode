@@ -20,7 +20,6 @@ class Solution:
                 if num in rows[i] or num in cols[j] or num in boxes[box_index]:
                     return False
                 
-                # Add the number to the respective row, column, and box set
                 rows[i].add(num)
                 cols[j].add(num)
                 boxes[box_index].add(num)
