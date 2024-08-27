@@ -36,4 +36,4 @@ class Solution:
 
 # If any of the conditions fail, the board is invalid, and we return false.
 
-If we traverse the entire board without any issues, the board is valid, and we return true.
+# If we traverse the entire board without any issues, the board is valid, and we return true.
