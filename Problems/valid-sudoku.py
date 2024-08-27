@@ -1,6 +1,5 @@
 class Solution:
     def isValidSudoku(self, board: list[list[str]]) -> bool:
-        # Use dictionaries to store the sets for rows, columns, and sub-boxes
         rows = [set() for _ in range(9)]
         cols = [set() for _ in range(9)]
         boxes = [set() for _ in range(9)]
