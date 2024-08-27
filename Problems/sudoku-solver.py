@@ -35,6 +35,6 @@ class Solution:
 # If the board becomes unsolvable, remove the digit (backtrack) and try the next digit.
 # If the board is completely filled with valid digits, the puzzle is solved.
 
-#Validation Function:
+# Validation Function:
 
 # We need a function to check if placing a particular number in a cell is valid, i.e., it doesn't violate the row, column, or sub-grid constraints.
