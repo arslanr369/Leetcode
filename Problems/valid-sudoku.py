@@ -33,5 +33,7 @@ class Solution:
 # If the value already exists in the corresponding column set.
 
 # If the value already exists in the corresponding 3x3 sub-grid set.
-If any of the conditions fail, the board is invalid, and we return false.
+
+# If any of the conditions fail, the board is invalid, and we return false.
+
 If we traverse the entire board without any issues, the board is valid, and we return true.
