@@ -28,5 +28,5 @@ class Solution:
 
 # Start with the base string "1".
 
-For each step, generate the next string by reading off the previous string (using the run-length encoding approach).
+# For each step, generate the next string by reading off the previous string (using the run-length encoding approach).
 Continue this until we reach the nth string.
