@@ -23,4 +23,16 @@ class Solution:
 
         solve(board)
 
-# 
+# Approach:
+
+# Backtracking Algorithm:
+
+Find an empty cell.
+Try placing each digit (1-9) in the cell.
+Check if the digit is valid (doesn't violate any Sudoku rules).
+If valid, recursively try to solve the remaining board.
+If the board becomes unsolvable, remove the digit (backtrack) and try the next digit.
+If the board is completely filled with valid digits, the puzzle is solved.
+Validation Function:
+
+We need a function to check if placing a particular number in a cell is valid, i.e., it doesn't violate the row, column, or sub-grid constraints.
