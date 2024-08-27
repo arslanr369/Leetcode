@@ -10,6 +10,7 @@ class Solution:
         return l
 # Approach:
 # Binary Search:
+
 # Start with two pointers, left and right, representing the bounds of the search space.
 # Calculate the mid index and compare nums[mid] with the target.
 # If nums[mid] is equal to the target, return mid.
