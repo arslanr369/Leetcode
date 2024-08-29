@@ -28,7 +28,6 @@ class Solution:
         while len(result) > 1 and result[-1] == 0:
             result.pop()
         
-        # Join and reverse the result to get the final product string
         return ''.join(map(str, result[::-1]))
 
 solution = Solution()
