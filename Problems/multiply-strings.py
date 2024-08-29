@@ -33,11 +33,11 @@ print(solution.multiply("2", "3"))
 # When multiplying two numbers, each digit of num1 is multiplied by each digit of num2, and the results are accumulated in the correct positions in an array that will eventually represent the product.
 # We handle carries while updating the array.
 
-Implementation Steps:
+# Implementation Steps:
 
-Create an array result to store the intermediate multiplication results. The size of the result array will be len(num1) + len(num2) because multiplying two numbers can at most result in a number with this many digits.
-Iterate over each digit in num1 and num2 from right to left, simulating the process of long multiplication.
-For each digit in num1 and num2, calculate the product and add it to the appropriate position in the result array.
+# Create an array result to store the intermediate multiplication results. The size of the result array will be len(num1) + len(num2) because multiplying two numbers can at most result in a number with this many digits.
+# Iterate over each digit in num1 and num2 from right to left, simulating the process of long multiplication.
+# For each digit in num1 and num2, calculate the product and add it to the appropriate position in the result array.
 Handle the carry by adding it to the next position.
 Convert the result array back into a string, skipping any leading zeros.
 Edge Cases:
