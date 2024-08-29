@@ -14,7 +14,7 @@ class Solution:
 
 # Water can only be trapped at a position if there is a taller bar both to the left and to the right of that position.
 # The amount of water trapped at any given position is determined by the shorter of the tallest bars to the left and the right minus the height of the current bar.
-Dynamic Programming Approach:
+# Dynamic Programming Approach:
 
 Left max array: We can create an array left_max where left_max[i] stores the tallest bar to the left of index i.
 Right max array: Similarly, create an array right_max where right_max[i] stores the tallest bar to the right of index i.
