@@ -24,7 +24,6 @@ class Solution:
                 result[i + j + 1] += result[i + j] // 10
                 result[i + j] %= 10
         
-        # Convert the result array back to a string, skipping leading zeros
         while len(result) > 1 and result[-1] == 0:
             result.pop()
         
