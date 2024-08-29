@@ -17,7 +17,6 @@ class Solution:
                 # Multiply the digits
                 product = int(num1[i]) * int(num2[j])
                 
-                # Add to the corresponding position in the result array
                 result[i + j] += product
                 
                 result[i + j + 1] += result[i + j] // 10
