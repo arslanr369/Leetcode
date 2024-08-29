@@ -1,6 +1,5 @@
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
-        # Edge case: if either number is "0", the product is "0"
         if num1 == "0" or num2 == "0":
             return "0"
         
