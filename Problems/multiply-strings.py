@@ -41,7 +41,8 @@ print(solution.multiply("2", "3"))
 # Handle the carry by adding it to the next position.
 
 # Convert the result array back into a string, skipping any leading zeros.
-Edge Cases:
 
-If either num1 or num2 is "0", return "0".
+# Edge Cases:
+
+# If either num1 or num2 is "0", return "0".
 Properly handle carries during the multiplication process.
