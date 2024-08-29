@@ -7,7 +7,6 @@ class Solution:
         # Initialize result array with zeros
         result = [0] * (len(num1) + len(num2))
         
-        # Reverse both strings for easier right-to-left multiplication
         num1 = num1[::-1]
         num2 = num2[::-1]
         
