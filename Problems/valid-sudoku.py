@@ -22,7 +22,7 @@ class Solution:
         
         return True
 
-# Approach:
+# Approach 👉:
 
 # We will use three sets of data structures to keep track of the values we encounter in rows, columns, and sub-grids.
 
