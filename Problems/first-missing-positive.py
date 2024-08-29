@@ -15,10 +15,10 @@ class Solution:
 
 # Approach:
 
-Understanding the Problem:
+# Understanding the Problem:
 
-The smallest missing positive integer must be in the range [1, len(nums) + 1].
-If all numbers from 1 to len(nums) are present in the array, the answer will be len(nums) + 1.
+# The smallest missing positive integer must be in the range [1, len(nums) + 1].
+# If all numbers from 1 to len(nums) are present in the array, the answer will be len(nums) + 1.
 In-Place Rearrangement:
 
 We can use the array itself to track whether a number in the range [1, len(nums)] is present.
