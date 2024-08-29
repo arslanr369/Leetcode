@@ -30,7 +30,7 @@ print(solution.multiply("2", "3"))
 
 # Basic Idea:
 
-When multiplying two numbers, each digit of num1 is multiplied by each digit of num2, and the results are accumulated in the correct positions in an array that will eventually represent the product.
+# When multiplying two numbers, each digit of num1 is multiplied by each digit of num2, and the results are accumulated in the correct positions in an array that will eventually represent the product.
 We handle carries while updating the array.
 Implementation Steps:
 
