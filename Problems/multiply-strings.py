@@ -31,7 +31,6 @@ class Solution:
         # Join and reverse the result to get the final product string
         return ''.join(map(str, result[::-1]))
 
-# Example usage:
 solution = Solution()
 print(solution.multiply("123", "456"))  
 print(solution.multiply("2", "3"))     
