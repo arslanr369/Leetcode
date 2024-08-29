@@ -21,6 +21,6 @@ class Solution:
 # Once we have these two arrays, the water trapped at each index i is min(left_max[i], right_max[i]) - height[i] if this value is positive.
 # Two-Pointer Approach (Optimal Solution):
 
-Instead of using extra space for the left_max and right_max arrays, we can use two pointers (left and right) to scan the array from both ends.
-We maintain two variables left_max and right_max to keep track of the maximum heights seen so far from the left and the right, respectively.
+# Instead of using extra space for the left_max and right_max arrays, we can use two pointers (left and right) to scan the array from both ends.
+# We maintain two variables left_max and right_max to keep track of the maximum heights seen so far from the left and the right, respectively.
 At each step, we calculate the water trapped based on the minimum of left_max and right_max, and move the pointer accordingly.
