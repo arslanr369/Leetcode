@@ -14,7 +14,6 @@ class Solution:
         # Perform multiplication
         for i in range(len(num1)):
             for j in range(len(num2)):
-                # Multiply the digits
                 product = int(num1[i]) * int(num2[j])
                 
                 result[i + j] += product
