@@ -11,7 +11,6 @@ class Solution:
         num1 = num1[::-1]
         num2 = num2[::-1]
         
-        # Perform multiplication
         for i in range(len(num1)):
             for j in range(len(num2)):
                 product = int(num1[i]) * int(num2[j])
