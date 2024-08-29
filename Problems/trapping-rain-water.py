@@ -16,7 +16,7 @@ class Solution:
 # The amount of water trapped at any given position is determined by the shorter of the tallest bars to the left and the right minus the height of the current bar.
 # Dynamic Programming Approach:
 
-Left max array: We can create an array left_max where left_max[i] stores the tallest bar to the left of index i.
+# Left max array: We can create an array left_max where left_max[i] stores the tallest bar to the left of index i.
 Right max array: Similarly, create an array right_max where right_max[i] stores the tallest bar to the right of index i.
 Once we have these two arrays, the water trapped at each index i is min(left_max[i], right_max[i]) - height[i] if this value is positive.
 Two-Pointer Approach (Optimal Solution):
