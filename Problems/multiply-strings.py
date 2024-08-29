@@ -38,7 +38,7 @@ print(solution.multiply("2", "3"))
 # Create an array result to store the intermediate multiplication results. The size of the result array will be len(num1) + len(num2) because multiplying two numbers can at most result in a number with this many digits.
 # Iterate over each digit in num1 and num2 from right to left, simulating the process of long multiplication.
 # For each digit in num1 and num2, calculate the product and add it to the appropriate position in the result array.
-Handle the carry by adding it to the next position.
+# Handle the carry by adding it to the next position.
 Convert the result array back into a string, skipping any leading zeros.
 Edge Cases:
 
