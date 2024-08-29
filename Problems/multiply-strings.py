@@ -4,7 +4,6 @@ class Solution:
         if num1 == "0" or num2 == "0":
             return "0"
         
-        # Initialize result array with zeros
         result = [0] * (len(num1) + len(num2))
         
         num1 = num1[::-1]
