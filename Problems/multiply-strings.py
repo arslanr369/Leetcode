@@ -33,5 +33,5 @@ class Solution:
 
 # Example usage:
 solution = Solution()
-print(solution.multiply("123", "456"))  # Output: "56088"
+print(solution.multiply("123", "456"))  
 print(solution.multiply("2", "3"))     
